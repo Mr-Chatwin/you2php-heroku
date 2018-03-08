@@ -1,5 +1,6 @@
-AuthName "Restricted Area"
-AuthType Basic
-AuthUserFile /app/web/.htpasswd
-AuthGroupFile /dev/null
-require valid-user
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /index.php [L]
+</IfModule>

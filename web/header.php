@@ -22,6 +22,15 @@ error_reporting( E_ALL&~E_NOTICE );
 <link rel="stylesheet" href="./inc/iconfont.css">
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3abf7488ecb84b5ade20171b57b7482e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md bg-primary navbar-dark">
